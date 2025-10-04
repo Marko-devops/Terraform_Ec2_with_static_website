@@ -10,4 +10,4 @@
 - Using Git Bash, I ran the commands terraform init, terraform fmt, terraform validate, and terraform plan to verify that there were no errors, and then launched the instance with terraform apply. After the EC2 instance was up, I copied its public key, opened it in the browser, and confirmed that the website had been deployed successfully.
 - https://github.com/Marko-devops/Terraform_Ec2_with_static_website/blob/main/Screenshots/Terraform%20Ec2.png
 - https://github.com/Marko-devops/Terraform_Ec2_with_static_website/blob/main/Screenshots/web.sh.png
--  Once I verified that everything was working, I destroyed the instance on AWS using terraform destroy.
+- Once I verified that everything was working, I destroyed the instance on AWS using terraform destroy.
