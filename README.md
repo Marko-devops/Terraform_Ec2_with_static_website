@@ -8,4 +8,5 @@
 - I also created variable.tf to define the variables for my IP "my_ip" and the public key "public_key".
 - Finally, I created backend.tf to configure the project to upload everything to an S3 bucket named "terrafs3bucket" https://github.com/Marko-devops/Terraform_Ec2_with_static_website/blob/main/Screenshots/S3%20bucket%20on%20AWS.png
 - Using Git Bash, I ran the commands terraform init, terraform fmt, terraform validate, and terraform plan to verify that there were no errors, and then launched the instance with terraform apply. After the EC2 instance was up, I copied its public key, opened it in the browser, and confirmed that the website had been deployed successfully.
+- https://github.com/Marko-devops/Terraform_Ec2_with_static_website/blob/main/Screenshots/Terraform%20Ec2.png
 -  Once I verified that everything was working, I destroyed the instance on AWS using terraform destroy.
