@@ -1,6 +1,6 @@
 # Terraform_Ec2_with_static_website
 
-- I created an AWS EC2 instance using Terraform and uploaded all the content to an S3 bucket. I started by generating an SSH key pair on my local terminal in the project folder. I took the script from my first project and added it to this one under the name web.sh.
+- I created an AWS Ec2 instance using Terraform and uploaded all the content to an S3 bucket. I started by generating an SSH key pair on my local terminal in the project folder. I took the script from my first project and added it to this one under the name web.sh.
 - Next, I created a file called instance.tf and added details such as the AMI, instance type, key name, security group, tags, and permissions for the web.sh script so that it would run automatically when the instance starts. I also gave it execution permissions using chmod +x.
 - After that, I created key_pair.tf and added the variable var.public_key containing the public key.
 -  I set up provider.tf with the AWS region information.
